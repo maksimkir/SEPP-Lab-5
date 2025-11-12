@@ -6,6 +6,10 @@ public:
     double add (double a, double b) const {
         return a + b;
     }
+
+    double subdivide (double a, double b) const {
+        return a - b;
+    }
     
 };
 
